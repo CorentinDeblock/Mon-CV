@@ -15,6 +15,9 @@ body{
 .mailTo{
     padding-top: 30px;
 }
+.button:hover{
+    background-color:red;
+}
 .button{
     background-color: rgb(41, 194, 41);
     border:1px solid white;
@@ -31,12 +34,19 @@ header{
 header h1{
     color:grey;
 }
+.reseau a{
+    color:white;
+    text-decoration: none;
+}
+.reseau a:hover{
+    color:grey;
+}
 .res-p{
-    margin-top:330px;
+    margin-top:500px;
     font-size:35px;
     color:red;
 }
-nav a:hover{
+.navigation a:hover{
     background-color:white;
     color:black;
 }
@@ -47,13 +57,13 @@ nav li{
 nav h2{
     font-size:2em;
 }
-nav a{
+.navigation a{
     color:white;
     font-size:25px;
     text-decoration: none;
 }
-nav a,header div{
-    transition: background-color 1s, color 1s;
+.navigation a,.reseau a,.button{
+    transition: background-color 0.3s, color 0.3s;
 }
 .c{
     width:50%;
