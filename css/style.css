@@ -42,7 +42,6 @@ header h1{
     color:grey;
 }
 .res-p{
-    margin-top:500px;
     font-size:35px;
     color:red;
 }
@@ -143,8 +142,7 @@ nav {
     color:white;
 }
 .fixed-content{
-    position: sticky;
-    top:18%;
+    position: fixed;
 }
 .limit-content{
     width:1000px;
