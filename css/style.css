@@ -102,7 +102,7 @@ nav h2{
     background-color:lightgreen;
 }
 .python{
-    width:10%;
+    width:30%;
     background-color: red;
 }
 .cSharp{
@@ -203,6 +203,9 @@ header{
     position:sticky;
     top:0%;
 }
+.navigation{
+    padding:0;
+}
 .navigation, .res-p{
     margin:0;       
 }
@@ -223,5 +226,13 @@ header{
     }
     .reseau{
         display:block;
+    }
+}
+@media screen and (max-width:1046px){
+    .content{
+        display:block;
+    }
+    .limit-content{
+        width:auto;
     }
 }
