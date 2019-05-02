@@ -19,13 +19,14 @@ body{
     border:1px solid white;
     border-radius: 10px;
     padding:5px 15px;
-    font-size: 20px;
     color:white;
     box-shadow: 1px 1px 10px 1px grey;
     text-decoration: none;
 }
 header{
     border-bottom: 2px solid black;
+    position:sticky;
+    top:0%;
 }
 header h1{
     color:grey;
@@ -38,19 +39,14 @@ header h1{
     color:grey;
 }
 .res-p{
-    font-size:35px;
     color:red;
 }
 nav li{
     list-style-type: none;
     margin-right:40px;
 }
-nav h2{
-    font-size:2em;
-}
 .navigation a{
     color:white;
-    font-size:25px;
     text-decoration: none;
     transition: opacity 0.3s;
     opacity: 0.7;
@@ -136,11 +132,7 @@ header{
 header h1{
     font-weight: 500;
 }
-article h2{
-    font-size: 40px;
-}
 .reseau{
-    font-size: 35px;
     color:#a1a1a1;
     display:flex;
     justify-content: space-between; 
@@ -157,7 +149,6 @@ nav {
     color:white;
 }
 article p {
-    font-size:25px;
     color:#919191;
     font-weight: bold;
 }
@@ -172,7 +163,6 @@ article p {
     margin:auto;
 }
 .answer{
-    font-size:23px;
     color:#717171;
     font-weight: lighter;
 }
@@ -196,12 +186,7 @@ footer{
     grid-area:f;
     background-color: white;
     text-align: center;
-    font-size:25px;
     padding:15px;
-}
-header{
-    position:sticky;
-    top:0%;
 }
 .navigation{
     padding:0;
@@ -229,19 +214,93 @@ header{
         margin:auto;
         top:18%;
     }
+
+    .button{
+        font-size: 20px;
+    }
+    .res-p{
+        font-size:35px;
+    }
+    nav h2{
+        font-size:2em;
+    }
+    .navigation a{
+        font-size:25px;
+    }
+
+    article h2{
+        font-size: 40px;
+    }
+    .reseau{
+        font-size: 35px;
+    }
+    article p {
+        font-size:25px;
+    }
+    .answer{
+        font-size:23px;
+    }
+    footer p{
+        font-size:25px;
+    }
 }
 @media screen and (max-width:1046px){
+    
     .content{
         display:block;
     }
     .limit-content{
         width:auto;
     }
+
+    .button{
+        font-size: 15px;
+    }
+    .res-p{
+        font-size:30px;
+    }
+    nav h2{
+        font-size:1.5em;
+    }
+    .navigation a{
+        font-size:20px;
+    }
+
+    article h2{
+        font-size: 35px;
+    }
+    .reseau{
+        font-size: 30px;
+    }
+    article p {
+        font-size:20px;
+    }
+    .answer{
+        font-size:18px;
+    }
+    footer p{
+        font-size:20px;
+    }
+    .info-réseau h2{
+        font-size:20px;
+    }
+    .info-réseau a{
+        font-size:20px;
+    }
+    .reseau{
+        justify-content: space-evenly;
+    }
+    header h1{
+        font-size:20px;
+    }
+    .mailTo {
+        width:200px;
+    }
 }
 @media screen and (max-width:1650px){
     nav{
-        position: sticky;
-        top:14%;
+        position: fixed;
+        width:100%;
         padding:20px;
     }
     .info-réseau{
